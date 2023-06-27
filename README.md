@@ -6,7 +6,7 @@
 
 ## Compile
 
-Run `mvn clean package` to create minified package in /target folder
+Run `mvn clean package` to create minified package in `/target` folder
 
 ## Origin
 
