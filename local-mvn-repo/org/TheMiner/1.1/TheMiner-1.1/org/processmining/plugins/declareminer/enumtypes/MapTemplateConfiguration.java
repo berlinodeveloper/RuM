@@ -1,0 +1,5 @@
+package org.processmining.plugins.declareminer.enumtypes;
+
+public enum MapTemplateConfiguration {
+	DiscoverProvidedTemplatesAcrossAllActivitesInLog, StrengthenMap, DiscoverProvidedTemplatesAcrossActivitiesOnlyInTheMap
+}
