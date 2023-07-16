@@ -6,7 +6,7 @@
 
 	<groupId>org.thesis</groupId>
 	<artifactId>rum</artifactId>
-	<version>0.6.10-minified</version>
+	<version>0.6.10-lib</version>
 
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
@@ -588,19 +588,9 @@
 
 		<!-- Speech 2 RuM -->
 		<dependency>
-			<groupId>org.beldr</groupId>
-			<artifactId>speech2rum</artifactId>
-			<version>1.0b</version>
-		</dependency>
-		<dependency>
 			<groupId>org.han</groupId>
 			<artifactId>declareExtraction</artifactId>
 			<version>1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.cloud</groupId>
-			<artifactId>google-cloud-speech</artifactId>
-			<version>2.2.2</version>
 		</dependency>
 	</dependencies>
 </project>

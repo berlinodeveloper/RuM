@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.thesis</groupId>
   <artifactId>rum</artifactId>
-  <version>0.6.10-minified</version>
+  <version>0.6.10-lib</version>
   <build>
     <plugins>
       <plugin>

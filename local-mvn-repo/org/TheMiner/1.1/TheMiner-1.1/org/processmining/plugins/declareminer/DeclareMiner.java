@@ -8152,6 +8152,13 @@ public class DeclareMiner {
 	}
 
 	public static void main(String[] args) {
+
+		try {
+			System.out.println(Test.class.getResourceAsStream("/resources/template.xml").available());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 		Set<DeclarePerspective> declarePerspectiveSet = new HashSet<DeclarePerspective>();
 		declarePerspectiveSet.add(DeclarePerspective.Control_Flow);
 
